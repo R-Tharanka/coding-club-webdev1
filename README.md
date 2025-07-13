@@ -47,7 +47,7 @@ Built as part of the **Web Development 1 – Web Design for Beginners** course, 
 ## 🎬 Demo
 Live demo (GitHub Pages):  
 ```
-https://<your-username>.github.io/coding-club-webdev1/
+https://R-Tharanka.github.io/coding-club-webdev1/
 ```
 
 ## 🏁 Getting Started
@@ -59,21 +59,19 @@ https://<your-username>.github.io/coding-club-webdev1/
 ### Installation
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/<your-username>/coding-club-webdev1.git
+   git clone https://github.com/R-Tharanka/coding-club-webdev1.git
    cd coding-club-webdev1
    ```
 
 2. **Open index.html in your browser, or run:**
-  ```bash
-  npx live-server
-  ```
+   ```bash
+   npx live-server
+   ```
 
-🔧 Usage
-Dark Mode: click the 🌙/☀️ icon in the top‑right to toggle theme.
-
-Navigation: use the navbar links to jump between sections.
-
-Gallery Animation: scroll down to see images fade in.
+## 🔧 Usage
+- **Dark Mode**: Click the 🌙/☀️ icon in the top‑right to toggle theme.
+- **Navigation**: Use the navbar links to jump between sections.
+- **Gallery Animation**: Scroll down to see images fade in.
 
 ## 📁 Folder Structure
   ```pgsql
@@ -94,15 +92,15 @@ Gallery Animation: scroll down to see images fade in.
 ## 🤝 Contributing
 Contributions are welcome!
 
-Fork the project
-
-Create a feature branch (git checkout -b feature/YourFeature)
-
-Commit your changes (git commit -m 'Add YourFeature')
-
-Push to the branch (git push origin feature/YourFeature)
-
-Open a Pull Request
+1. Fork the project
+2. Create a feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m 'Add YourFeature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a Pull Request
 
 ## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+## 📞 Contact
+- **Project Maintainer**: R-Tharanka
+- **GitHub**: [R-Tharanka](https://github.com/R-Tharanka)
