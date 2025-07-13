@@ -75,7 +75,7 @@ Navigation: use the navbar links to jump between sections.
 
 Gallery Animation: scroll down to see images fade in.
 
-### 📁 Folder Structure
+## 📁 Folder Structure
   ```pgsql
   coding-club-webdev1/
   ├── index.html
@@ -91,7 +91,7 @@ Gallery Animation: scroll down to see images fade in.
       ├── desktop-view.png
       └── mobile-view.png
 ```
-### 🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome!
 
 Fork the project
@@ -104,5 +104,5 @@ Push to the branch (git push origin feature/YourFeature)
 
 Open a Pull Request
 
-### 📜 License
+## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.
