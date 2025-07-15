@@ -12,7 +12,6 @@ A responsive, static web page for the Innovators' Coding Club featuring a dark, 
   - [Project Overview](#-project-overview)
   - [Table of Contents](#-table-of-contents)
   - [Features](#-features)
-  - [Design Theme: Midnight Neon](#-design-theme-midnight-neon)
   - [Technologies Used](#-technologies-used)
   - [Demo](#-demo)
   - [Getting Started](#-getting-started)
@@ -40,19 +39,16 @@ A responsive, static web page for the Innovators' Coding Club featuring a dark, 
   Full navbar on desktop, hamburger menu on mobile
 - **Semantic Structure**  
   Proper HTML5 semantic elements for improved accessibility and SEO
-
-## 🎨 Design Theme: Midnight Neon
-The site features a "Midnight Neon" theme with:
-
-- **Dark Background**: Rich dark indigo (#0A0A0F) base
-- **Vibrant Accents**: Electric cyan (#00D1FF) and neon magenta (#FF3DCC)
-- **Typography**: 
-  - Headings: Exo 2 (square, techno-style) in uppercase
-  - Body: Inter (clean sans-serif) for readability
-  - Code/Buttons: Source Code Pro (monospaced) for coding aesthetics
-- **Glowing Elements**: Soft neon glow effects on buttons, headings, and interactive elements
-- **Animated Transitions**: Smooth animations for hover states and page scrolling
-- **Digital Rain Effect**: Matrix-inspired subtle digital rain in the hero section
+- **🎨 Midnight Neon Theme**  
+  - Dark Background: Rich dark indigo (#0A0A0F) base
+  - Vibrant Accents: Electric cyan (#00D1FF) and neon magenta (#FF3DCC)
+  - Typography: 
+    - Headings: Exo 2 (square, techno-style) in uppercase
+    - Body: Inter (clean sans-serif) for readability
+    - Code/Buttons: Source Code Pro (monospaced) for coding aesthetics
+  - Glowing Elements: Soft neon glow effects on buttons, headings, and interactive elements
+  - Animated Transitions: Smooth animations for hover states and page scrolling
+  - Digital Rain Effect: Matrix-inspired subtle digital rain in the hero section
 
 ## 🛠 Technologies Used
 - **HTML5** (Semantic Elements)  
