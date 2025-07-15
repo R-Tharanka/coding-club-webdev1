@@ -108,4 +108,4 @@ coding-club-webdev1/
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/R-Tharanka/coding-club-webdev1/blob/4980b9603a3385132840f22c67fd39093563e70f/LICENSE) file for details.
