@@ -5,7 +5,7 @@
 > University of Moratuwa
 
 ## 🚀 Project Overview
-A responsive, static web page for the Innovators' Coding Club featuring a dark, futuristic "Midnight Neon" theme with vivid accent glows and subtle animations. Built as part of the **Web Development 1 – Web Design for Beginners** course, this site showcases club information, meeting schedule, upcoming events, gallery, and interactive features like dark/light mode toggle and animations.
+A responsive, static web page for the Innovators Coding Club featuring a dark, futuristic "Midnight Neon" theme with vivid accent glows and subtle animations. Built as part of the **Web Development 1 – Web Design for Beginners** course, this site showcases club information, meeting schedule, upcoming events, gallery, and interactive features like dark/light mode toggle and animations.
 
 ## 📝 Table of Contents
 - [coding-club-webdev1](#coding-club-webdev1)
@@ -41,7 +41,7 @@ A responsive, static web page for the Innovators' Coding Club featuring a dark, 
   Smooth scrolling to the top of the page with an animated button
 - **Semantic Structure**  
   Proper HTML5 semantic elements for improved accessibility and SEO
-- **🎨 Midnight Neon Theme**  
+- **Midnight Neon Theme**  
   - Dark Background: Rich dark indigo (#0A0A0F) base
   - Vibrant Accents: Electric cyan (#00D1FF) and neon magenta (#FF3DCC)
   - Typography: 
