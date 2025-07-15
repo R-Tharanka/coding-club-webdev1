@@ -185,8 +185,7 @@ function initDigitalRain() {
         ctx.fillStyle = 'rgba(10, 10, 15, 0.05)';
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         
-        // Set text properties
-        ctx.fillStyle = '#00D1FF';
+        // Set text properties - using a more vibrant gradient color
         ctx.font = `${fontSize}px monospace`;
         
         // Draw each character
@@ -194,8 +193,16 @@ function initDigitalRain() {
             // Random character
             const text = chars[Math.floor(Math.random() * chars.length)];
             
-            // Draw with varying opacity for depth effect
-            ctx.globalAlpha = Math.random() * 0.2 + 0.1;
+            // Use more vibrant colors with higher opacity for better visibility
+            // Randomly choose between primary and secondary accent colors for variety
+            if (Math.random() > 0.5) {
+                ctx.fillStyle = '#00D1FF'; // Primary accent color
+            } else {
+                ctx.fillStyle = '#FF3DCC'; // Secondary accent color
+            }
+            
+            // Higher opacity for more vibrant effect
+            ctx.globalAlpha = Math.random() * 0.5 + 0.3;
             
             // Draw the character
             ctx.fillText(text, i * fontSize, drops[i] * fontSize);

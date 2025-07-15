@@ -239,6 +239,7 @@ nav {
 .nav-menu {
     display: flex;
     list-style: none;
+    margin-right: 2rem;
 }
 
 .nav-menu li {
@@ -260,8 +261,8 @@ nav {
     justify-content: space-between;
     height: 20px;  /* Reduced from 24px */
     width: 25px;   /* Reduced from 30px */
-    margin-left: auto; /* Push to the right */
     margin-right: 0; /* Removed spacing */
+    margin-left: 2rem; 
 }
 
 .bar {
@@ -277,7 +278,6 @@ nav {
     font-size: 1.2rem;
     color: var(--accent-primary);
     transition: color 0.3s ease, transform 0.3s ease;
-    margin-right: 12px; /* Reduced spacing */
 }
 
 .theme-toggle:hover {
