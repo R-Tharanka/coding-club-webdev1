@@ -62,7 +62,7 @@ A responsive, static web page for the Innovators' Coding Club featuring a dark, 
 ## 🎬 Demo
 Live demo (GitHub Pages):  
 ```
-https://R-Tharanka.github.io/coding-club-webdev1/
+https://r-tharanka.github.io/coding-club-webdev1/
 ```
 
 ## 🏁 Getting Started
