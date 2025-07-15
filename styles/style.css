@@ -320,7 +320,7 @@ nav {
 
 @keyframes glow {
     from { box-shadow: 0 0 5px var(--accent-primary); }
-    to { box-shadow: 0 0 15px var(--accent-primary), 0 0 30px var(--accent-secondary); }
+    to { box-shadow: 0 0 15px var(--accent-primary); }
 }
 
 .digital-rain-effect {
