@@ -5,8 +5,9 @@
  * 1. Theme Toggle (Dark/Light Mode)
  * 2. Mobile Navigation Menu Toggle
  * 3. Scroll Animations (Header visibility, fade-in elements)
- * 4. Back to Top Button Functionality
- * 5. Digital Rain Effect in Hero Section
+ * 4. Digital Rain Effect in Hero Section
+ * 
+ * Note: Back to Top Button functionality has been moved to backToTop.js
  */
 
 // Wait until DOM is fully loaded
@@ -15,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initThemeToggle();
     initMobileNav();
     initScrollAnimations();
-    initBackToTop();
+    // Back to top button functionality moved to separate file
     initDigitalRain();
     
     // Add fallback for browsers that don't support JS
@@ -136,31 +137,6 @@ function initScrollAnimations() {
     });
 }
 
-/**
- * Back to Top Button
- * Smooth scroll to top functionality
- */
-function initBackToTop() {
-    const backToTopBtn = document.getElementById('back-to-top-btn');
-    
-    // Show/hide button based on scroll position
-    window.addEventListener('scroll', function() {
-        if (window.scrollY > 500) {
-            backToTopBtn.style.opacity = '1';
-        } else {
-            backToTopBtn.style.opacity = '0';
-        }
-    });
-    
-    // Scroll to top on click
-    backToTopBtn.addEventListener('click', function(e) {
-        e.preventDefault();
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    });
-}
 
 /**
  * Digital Rain Effect
