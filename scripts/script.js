@@ -123,14 +123,9 @@ function initScrollAnimations() {
             window.requestAnimationFrame(function() {
                 const currentScrollY = window.scrollY;
                 
-                // Show/hide header based on scroll direction
-                if (currentScrollY > lastScrollY && currentScrollY > 100) {
-                    header.classList.add('scrolled');
-                    header.classList.remove('visible');
-                } else {
-                    header.classList.remove('scrolled');
-                    header.classList.add('visible');
-                }
+                // Always keep header visible (sticky)
+                header.classList.remove('scrolled');
+                header.classList.add('visible');
                 
                 lastScrollY = currentScrollY;
                 ticking = false;

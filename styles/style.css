@@ -193,12 +193,17 @@ header {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    transition: background-color 0.3s ease;
+    /* Always stay visible */
+    transform: translateY(0);
 }
 
+/* Remove the hide-on-scroll behavior for sticky nav */
+/*
 header.scrolled {
     transform: translateY(-100%);
 }
+*/
 
 header.visible {
     transform: translateY(0);
