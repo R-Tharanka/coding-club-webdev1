@@ -1,0 +1,62 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node.js related
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build and dist directories
+dist/
+build/
+.tmp/
+.temp/
+.cache/
+
+# Local development server files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Optional: Ignore specific development tools
+.sass-cache/
+.eslintcache
+.stylelintcache
+.coverage/
+coverage/
+
+# Misc
+.env
+.env.local
+.env.development
+.env.production
+.vercel
