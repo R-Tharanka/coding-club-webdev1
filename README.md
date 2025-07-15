@@ -9,18 +9,18 @@ A responsive, static web page for the Innovators' Coding Club featuring a dark, 
 
 ## 📝 Table of Contents
 - [coding-club-webdev1](#coding-club-webdev1)
-  - [Project Overview](#-project-overview)
-  - [Table of Contents](#-table-of-contents)
-  - [Features](#-features)
-  - [Technologies Used](#-technologies-used)
-  - [Demo](#-demo)
-  - [Getting Started](#-getting-started)
+  - [🚀 Project Overview](#-project-overview)
+  - [📝 Table of Contents](#-table-of-contents)
+  - [⭐ Features](#-features)
+  - [🛠 Technologies Used](#-technologies-used)
+  - [🎬 Demo](#-demo)
+  - [🏁 Getting Started](#-getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
-  - [Usage](#-usage)
-  - [Folder Structure](#-folder-structure)
-  - [Contributing](#-contributing)
-  - [License](#-license)
+  - [🔧 Usage](#-usage)
+  - [📁 Folder Structure](#-folder-structure)
+  - [🤝 Contributing](#-contributing)
+  - [📜 License](#-license)
 
 ## ⭐ Features
 - **Responsive Design**  
@@ -37,6 +37,8 @@ A responsive, static web page for the Innovators' Coding Club featuring a dark, 
   4 event photos with fade-in animation on scroll
 - **Responsive Navigation**  
   Full navbar on desktop, hamburger menu on mobile
+- **Back to Top Button**  
+  Smooth scrolling to the top of the page with an animated button
 - **Semantic Structure**  
   Proper HTML5 semantic elements for improved accessibility and SEO
 - **🎨 Midnight Neon Theme**  
@@ -54,8 +56,8 @@ A responsive, static web page for the Innovators' Coding Club featuring a dark, 
 - **HTML5** (Semantic Elements)  
 - **CSS3** (Flexbox, Grid, Custom Properties, Animations, Media Queries)  
 - **JavaScript** (ES6+, DOM Manipulation, Intersection Observer, Local Storage)
-- **FontAwesome** (Icons)
-- **Google Fonts** (Typography)
+- **FontAwesome** (Icons via CDN)
+- **Google Fonts** (Exo 2, Inter, and Source Code Pro)
 
 ## 🎬 Demo
 Live demo (GitHub Pages):  
@@ -85,7 +87,9 @@ https://R-Tharanka.github.io/coding-club-webdev1/
 ## 🔧 Usage
 - **Theme Toggle**: Click the moon/sun icon in the top-right to switch between dark and light modes
 - **Navigation**: Use the navbar links to jump between sections
+- **Mobile Menu**: On smaller screens, click the hamburger icon to open the navigation menu
 - **Gallery**: Scroll down to see images fade in with animation
+- **Digital Rain**: Observe the Matrix-style digital rain effect in the hero section
 - **Back to Top**: Click the arrow button in the footer to scroll smoothly to the top
 
 ## 📁 Folder Structure
@@ -95,14 +99,16 @@ coding-club-webdev1/
 ├── styles/                 # CSS styles directory
 │   └── style.css           # CSS styles with Midnight Neon theme
 ├── scripts/                # JavaScript directory
-│   └── script.js           # JavaScript for interactivity and animations
+│   ├── script.js           # Main JavaScript for interactivity and animations
+│   └── backToTop.js        # Separate script for back-to-top button functionality
 ├── assets/
 │   └── images/             # Website images
-│       ├── logo.png        # Club logo
-│       ├── event1.jpg      # Event photos
-│       ├── event2.jpg
-│       ├── event3.jpg
-│       └── event4.jpg
+│       ├── logo.png                   # Club logo
+│       ├── favicon.ico                # Website favicon
+│       ├── Coding Workshop.jpg        # Event photo
+│       ├── Guest Speaker Event.jpg    # Event photo
+│       ├── Hackathon Presentations.jpeg # Event photo
+│       └── Tech Conference Trip.jpg   # Event photo
 ├── LICENSE                 # License file
 └── README.md               # Project documentation
 ```
