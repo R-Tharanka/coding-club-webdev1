@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovators' Coding Club</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;800&family=Inter:wght@300;400;600&family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="home">
+        <div class="container header-container">
+            <div class="logo-container">
+                <img src="assets/images/logo.png" alt="Innovators' Coding Club Logo" class="logo">
+            </div>
+            <nav>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Innovators' Coding Club</h1>
+                <p class="tagline">Where Code Meets Creativity</p>
+                <a href="#contact" class="btn cta-btn">Join Now</a>
+            </div>
+            <div class="digital-rain-effect"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="neon-divider"></div>
+            
+            <div class="about-content">
+                <div class="mission">
+                    <h3>Our Mission</h3>
+                    <p>The Innovators' Coding Club is a community where students learn, create, and innovate together. We foster technical skills, problem-solving abilities, and a collaborative mindset through workshops, projects, and events.</p>
+                </div>
+                
+                <div class="goals">
+                    <h3>Core Goals</h3>
+                    <ul>
+                        <li><i class="fas fa-code"></i> Peer Mentorship</li>
+                        <li><i class="fas fa-laptop-code"></i> Skill Development</li>
+                        <li><i class="fas fa-project-diagram"></i> Collaborative Projects</li>
+                        <li><i class="fas fa-trophy"></i> Hackathons</li>
+                        <li><i class="fas fa-handshake"></i> Industry Connections</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="section">
+        <div class="container">
+            <h2 class="section-title">Meeting Schedule</h2>
+            <div class="neon-divider"></div>
+            
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Time</th>
+                            <th>Venue</th>
+                            <th>Topic</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>4–6 PM</td>
+                            <td>Room A203</td>
+                            <td>JavaScript Basics</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>5–7 PM</td>
+                            <td>Lab 1</td>
+                            <td>Git & GitHub Workshop</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>3–5 PM</td>
+                            <td>Room B105</td>
+                            <td>Web Development</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="section">
+        <div class="container">
+            <h2 class="section-title">Upcoming Events</h2>
+            <div class="neon-divider"></div>
+            
+            <ol class="event-list">
+                <li class="event-item" data-date="July 20">
+                    <div class="event-date">July 20</div>
+                    <div class="event-details">
+                        <h3>Intro to Python</h3>
+                        <p>A beginner-friendly workshop covering Python fundamentals.</p>
+                    </div>
+                </li>
+                <li class="event-item" data-date="July 27">
+                    <div class="event-date">July 27</div>
+                    <div class="event-details">
+                        <h3>UI/UX Design Sprint</h3>
+                        <p>Learn the basics of user interface and experience design.</p>
+                    </div>
+                </li>
+                <li class="event-item" data-date="August 5">
+                    <div class="event-date">August 5</div>
+                    <div class="event-details">
+                        <h3>Club Hackathon</h3>
+                        <p>24-hour coding challenge with prizes and mentorship.</p>
+                    </div>
+                </li>
+                <li class="event-item" data-date="August 12">
+                    <div class="event-date">August 12</div>
+                    <div class="event-details">
+                        <h3>Guest Speaker Series</h3>
+                        <p>Industry professionals share insights and career advice.</p>
+                    </div>
+                </li>
+                <li class="event-item" data-date="August 30">
+                    <div class="event-date">August 30</div>
+                    <div class="event-details">
+                        <h3>End-of-Term Showcase</h3>
+                        <p>Present your projects and celebrate our achievements.</p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <div class="neon-divider"></div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/images/event1.jpg" alt="Students collaborating during a coding workshop" class="fade-in">
+                    <div class="image-caption">Coding Workshop</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/event2.jpg" alt="Team presenting their project at the hackathon" class="fade-in">
+                    <div class="image-caption">Hackathon Presentations</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/event3.jpg" alt="Guest speaker from tech industry giving a talk" class="fade-in">
+                    <div class="image-caption">Guest Speaker Event</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/event4.jpg" alt="Club members at the tech conference" class="fade-in">
+                    <div class="image-caption">Tech Conference Trip</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="neon-divider"></div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>Interested in joining or have questions? Reach out to us through any of the following channels:</p>
+                    <ul class="contact-links">
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:coding.club@school.edu">coding.club@school.edu</a></li>
+                        <li><i class="fab fa-github"></i> <a href="#">GitHub Organization</a></li>
+                        <li><i class="fas fa-user-plus"></i> <a href="#">Membership Sign-up</a></li>
+                        <li><i class="fab fa-instagram"></i> <a href="#">Instagram</a></li>
+                        <li><i class="fas fa-school"></i> <a href="#">School Homepage</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Innovators' Coding Club. All rights reserved.</p>
+            <div class="back-to-top">
+                <a href="#home" id="back-to-top-btn"><i class="fas fa-arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="scripts/script.js"></script>
+</body>
+</html>
