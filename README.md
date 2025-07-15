@@ -1,26 +1,27 @@
-# Innovators' Coding Club - Midnight Neon Theme
+# coding-club-webdev1
 
 > **Innovators' Coding Club** — Static Website  
 > _Web Development 1: Web Design for Beginners_  
 > University of Moratuwa
 
 ## 🚀 Project Overview
-A responsive, static web page for the Innovators' Coding Club featuring a dark, futuristic "Midnight Neon" theme with vivid accent glows and subtle animations. This site showcases club information, meeting schedule, upcoming events, gallery, and interactive features like dark/light mode toggle and animations.
+A responsive, static web page for the Innovators' Coding Club featuring a dark, futuristic "Midnight Neon" theme with vivid accent glows and subtle animations. Built as part of the **Web Development 1 – Web Design for Beginners** course, this site showcases club information, meeting schedule, upcoming events, gallery, and interactive features like dark/light mode toggle and animations.
 
 ## 📝 Table of Contents
-- [Innovators' Coding Club - Midnight Neon Theme](#innovators-coding-club---midnight-neon-theme)
-  - [🚀 Project Overview](#-project-overview)
-  - [📝 Table of Contents](#-table-of-contents)
-  - [⭐ Features](#-features)
-  - [🎨 Design Theme: Midnight Neon](#-design-theme-midnight-neon)
-  - [🛠 Technologies Used](#-technologies-used)
-  - [🏁 Getting Started](#-getting-started)
+- [coding-club-webdev1](#coding-club-webdev1)
+  - [Project Overview](#-project-overview)
+  - [Table of Contents](#-table-of-contents)
+  - [Features](#-features)
+  - [Design Theme: Midnight Neon](#-design-theme-midnight-neon)
+  - [Technologies Used](#-technologies-used)
+  - [Demo](#-demo)
+  - [Getting Started](#-getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
-  - [🔧 Usage](#-usage)
-  - [📁 Folder Structure](#-folder-structure)
-  - [🤝 Contributing](#-contributing)
-  - [📜 License](#-license)
+  - [Usage](#-usage)
+  - [Folder Structure](#-folder-structure)
+  - [Contributing](#-contributing)
+  - [License](#-license)
 
 ## ⭐ Features
 - **Responsive Design**  
@@ -59,6 +60,12 @@ The site features a "Midnight Neon" theme with:
 - **JavaScript** (ES6+, DOM Manipulation, Intersection Observer, Local Storage)
 - **FontAwesome** (Icons)
 - **Google Fonts** (Typography)
+
+## 🎬 Demo
+Live demo (GitHub Pages):  
+```
+https://R-Tharanka.github.io/coding-club-webdev1/
+```
 
 ## 🏁 Getting Started
 
@@ -105,7 +112,16 @@ coding-club-webdev1/
 ```
 
 ## 🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome!
+
+1. Fork the project
+2. Create a feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m 'Add YourFeature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a Pull Request
+
+Please feel free to submit a Pull Request.
 
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/R-Tharanka/coding-club-webdev1/blob/4980b9603a3385132840f22c67fd39093563e70f/LICENSE) file for details.
+
